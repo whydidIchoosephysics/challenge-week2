@@ -10,52 +10,39 @@
 </head>
 
 <body>
- 
-
-  <nav class="navbar">
-    <!-- LOGO -->
-    <div class="logo">MUO</div>
-      <!-- NAVIGATION MENU -->
-    <ul class="nav-links">
-      <!-- USING CHECKBOX HACK -->
-      <input type="checkbox" id="checkbox_toggle" />
-      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-      <!-- NAVIGATION MENUS -->
-      <div class="menu">
-        <li><a href="/">Home</a></li>
-        <li><a href="/">About</a></li>
-        <li class="services">
-          <a href="/">Services</a>
-          <!-- DROPDOWN MENU -->
-          <ul class="dropdown">
-            <li><a href="/">Dropdown 1 </a></li>
-            <li><a href="/">Dropdown 2</a></li>
-            <li><a href="/">Dropdown 2</a></li>
-            <li><a href="/">Dropdown 3</a></li>
-            <li><a href="/">Dropdown 4</a></li>
-          </ul>
-        </li>
-        <li><a href="/">Pricing</a></li>
-        <li><a href="/">Contact</a></li>
-        </div>
-    </ul>
-  </nav>
   
-        <!-- main logo / nav -->
+  <!-- main logo / nav -->
   <header>
-    <h1>Stefan's Portfolio</h1>
 
-    <ul>
-      <li><a href="default.asp">Home</a></li>
-      <li><a href="news.asp">News</a></li>
-      <li><a href="contact.asp">Contact</a></li>
-      <li><a href="about.asp">About</a></li>
-    </ul>
-
-
-    <nav>
-    
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">Stefan's Portfolio</div>
+        <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/">News</a></li>
+          <li class="services">
+            <a href="/">Services</a>
+            <!-- DROPDOWN MENU -->
+            <ul class="dropdown">
+              <li><a href="/">Dropdown 1 </a></li>
+              <li><a href="/">Dropdown 2</a></li>
+              <li><a href="/">Dropdown 2</a></li>
+              <li><a href="/">Dropdown 3</a></li>
+              <li><a href="/">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Contact</a></li>
+          </div>
+      </ul>
     </nav>
+
   </header>
 
   <!-- hero banner -->
@@ -75,17 +62,34 @@
     </section>
 
     <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
+    <section id="projectsGrid" class="page-section" id="work">
+      <h2 id="TitleWork">Work</h2>
       
-      <ul>
-        <li>Big Website</li>
-        <li>Random Project #1</li>
-        <li>Random Project #2</li>
-        <li>Random Project #3</li>
-        <li>Random Project #4</li>
-      </ul>
-    </section>
+        
+        <article id="bigproject">
+          <h3>Big Project</h3>
+          <p>This Website</p>
+        </article>
+
+        <article id="project1">
+          <h3>Project 1</h3>
+          <p>This Website</p>
+        </article>
+
+        <article id="project2">
+          <h3>project 2</h3>
+          <p>This Website</p>
+        </article>
+
+        <article id="project3">
+          <h3>project 3</h3>
+          <p>This Website</p>
+        </article>
+
+        <article id="project4">
+          <h3>project 4</h3>
+          <p>This Website</p>
+        </article>
 
   </main>
 

@@ -30,7 +30,7 @@ p {
   }
   
   body {
-    font-family: cursive;
+    font-family: "Times New Roman", Times, serif;
     }
   
   a {
@@ -116,9 +116,41 @@ p {
 
 /* Creates the grid for the five projects */
 
-.container {
-  grid-template-areas: 
-    "Work BigProject BigProject" 
-    "Work project1 project2"
-    "Work project3 project4";
+#projectsGrid {
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 100vh;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-areas:
+    'TitleWork bigproject bigproject'
+    'TitleWork project1 project2'
+    'TitleWork project3 project4';
+}
+
+
+#bigproject {
+  grid-area: bigproject;
+  background-image: url('../images/02-portfolio-1.jpg');
+}
+
+#project1 {
+  grid-area: project1;
+  background-image: url('../images/02-portfolio-2.jpg');
+}
+
+#project2 {
+  grid-area: project2;
+  background-image: url('../images/02-portfolio-3.jpg');
+}
+
+#project3 {
+  grid-area: project3;
+  background-image: url('../images/02-portfolio-4.jpg');
+}
+
+#project4 {
+  grid-area: project4;
+  background-image: url('../images/02-run-buddy.jpg');
 }

@@ -21,3 +21,15 @@ h6 {
 p {
   margin: 0;
 }
+
+
+
+
+/* Creates the grid for the five projects */
+
+.container {
+  grid-template-areas: 
+    "Work BigProject BigProject" 
+    "Work project1 project2"
+    "Work project3 project4";
+}

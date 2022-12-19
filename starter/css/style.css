@@ -135,6 +135,7 @@ p {
 #bigproject {
   grid-area: bigproject;
   background-image: url('../images/02-portfolio-1.jpg');
+  href="https://whydidichoosephysics.github.io/challenge-week1/"
 }
 
 #project1 {
@@ -155,4 +156,9 @@ p {
 #project4 {
   grid-area: project4;
   background-image: url('../images/02-run-buddy.jpg');
+}
+
+
+#banner {
+  background-image: url("../images/02-hero-bg.jpg");
 }

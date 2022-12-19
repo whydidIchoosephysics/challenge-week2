@@ -1,0 +1,48 @@
+#aboutGrid {
+    margin: 0px 5%;
+    display: grid;
+    min-height: 200px;
+    grid-template-columns: 33%  66%;
+    grid-column-gap: 5px;
+    grid-template-areas:
+      'TitleAbout textAbout textAbout';
+  }
+
+  #TitleAbout {
+    grid-area: TitleAbout;
+  }
+
+  #textAbout {
+    grid-area: textAbout;
+  }
+
+
+
+  #contactGrid {
+    margin: 0px 5%;
+    display: grid;
+    min-height: 200px;
+    grid-template-columns: 33%  25%;
+    grid-column-gap: 5px;
+    grid-template-areas:
+      'TitleContact contact1 contact2 contact3';
+  }
+
+  #TitleContact {
+    grid-area: TitleContact;
+  }
+
+  #contact1 {
+    grid-area: contact1;
+  }
+
+  #contact2 {
+    grid-area: contact2;
+  }
+
+  #contact3 {
+    grid-area: contact3;
+  }
+
+
+ 

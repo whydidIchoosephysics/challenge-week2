@@ -123,6 +123,8 @@ p {
   height: 100vh;
   grid-template-rows: 33% 33% 33%;
   grid-template-columns: 33% 33% 33%;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
   grid-template-areas:
     'TitleWork bigproject bigproject'
     'TitleWork project1 project2'

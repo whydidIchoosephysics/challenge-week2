@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Stefan's Portfolio</title>
   <link rel="stylesheet" href="starter/css/style.css" />
+  <link rel="stylesheet" href="starter/css/style2.css" />
 </head>
 
 <body>
@@ -19,26 +20,13 @@
       <div class="logo">Stefan's Portfolio</div>
         <!-- NAVIGATION MENU -->
       <ul class="nav-links">
-        <!-- USING CHECKBOX HACK -->
-        <input type="checkbox" id="checkbox_toggle" />
-        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                
         <!-- NAVIGATION MENUS -->
         <div class="menu">
-          <li><a href="/">Home</a></li>
-          <li><a href="/">News</a></li>
-          <li class="services">
-            <a href="/">Services</a>
-            <!-- DROPDOWN MENU -->
-            <ul class="dropdown">
-              <li><a href="/">Dropdown 1 </a></li>
-              <li><a href="/">Dropdown 2</a></li>
-              <li><a href="/">Dropdown 2</a></li>
-              <li><a href="/">Dropdown 3</a></li>
-              <li><a href="/">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="/">About</a></li>
-          <li><a href="/">Contact</a></li>
+          
+          <li><a href="#aboutGrid">About Me</a></li>
+          <li><a href="#projectsGrid">Work</a></li>
+          <li><a href="#contactGrid">Contact</a></li>
           </div>
       </ul>
     </nav>
@@ -54,17 +42,25 @@
 
   <main class="page-wrapper">
     <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <p>
-        A short paragraph whihc explains a few things about my coding journey.
+    <section class="page-section" id="aboutGrid">
+      <h2 id="TitleAbout">About Me</h2>
+      <p id="textAbout">
+        A short paragraph whihc explains a few things about my coding journey. 
+        
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, 
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
     </section>
 
     <!-- portfolio container -->
     <section id="projectsGrid" class="page-section" id="work">
-      <h2 id="TitleWork">Work</h2>
       
+        <h2 id="TitleWork">Work</h2>
         
         <article id="bigproject">
           <h3>Big Project</h3>
@@ -95,16 +91,14 @@
 
 
   <!-- contact -->
-  <footer class="page-section contact" id="contact">
-   <h2>Contact Me</h2>
+  <footer class="page-section-contact" id="contactGrid">
+    <h2 id="TitleContact">Contact Me</h2>
 
-   <ul>
-    <li>Phone</li>
-    <li>Email</li>
-    <li>GitHub</li>
-    <li>Twitter</li>
-    <li>Spotify</li>
-  </ul>
+   
+    <li id="contact1">Phone</li>
+    <li id="contact2">Email</li>
+    <li id="contact3">GitHub</li>
+  
   </footer>
 
 

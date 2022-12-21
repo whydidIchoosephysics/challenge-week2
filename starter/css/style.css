@@ -122,7 +122,7 @@ p {
   min-height: 500px;
   height: 100vh;
   grid-template-rows: 33% 33% 33%;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 20% 40% 40%;
   grid-row-gap: 5px;
   grid-column-gap: 5px;
   grid-template-areas:
@@ -135,7 +135,6 @@ p {
 #bigproject {
   grid-area: bigproject;
   background-image: url('../images/02-portfolio-1.jpg');
-  href="https://whydidichoosephysics.github.io/challenge-week1/"
 }
 
 #project1 {
@@ -159,6 +158,11 @@ p {
 }
 
 
-#banner {
+.hero-banner {
   background-image: url("../images/02-hero-bg.jpg");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: 0 65%;
+  background-size: 100%;
 }
+
